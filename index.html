@@ -9,89 +9,92 @@
       margin: 0; 
       padding: 0;
       font-family: 'Segoe UI', Arial, sans-serif;
-      background: linear-gradient(180deg, #1a1a1a 0%, #2b1d14 40%, #3a2a1f 100%);
-      color: #fff;
-      scroll-behavior: smooth; /* Ομαλό scroll */
+      background: linear-gradient(180deg, #f4e1c6 0%, #e6cfa8 40%, #d9b88c 100%);
+      color: #333;
+      scroll-behavior: smooth;
     }
 
     /* ---------- Navigation Bar ---------- */
     .navbar {
       position: sticky;
       top: 0;
-      background: rgba(0,0,0,0.85);
+      background: rgba(255, 255, 255, 0.95);
       display: flex;
       justify-content: center;
       gap: 20px;
       padding: 10px 0;
       z-index: 1000;
-      backdrop-filter: blur(6px);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
 
     .navbar a {
       text-decoration: none;
-      color: #fff;
+      color: #333;
       font-weight: bold;
       padding: 8px 14px;
       border-radius: 8px;
-      background: #e67e22;
+      background: #f39c12;
+      color: #fff;
       transition: background 0.3s;
     }
 
     .navbar a:hover {
-      background: #cf6d1a;
+      background: #e67e22;
     }
 
     /* ---------- Main Container ---------- */
     .menu-container {
-      max-width: 500px;
+      max-width: 600px;
       margin: 0 auto;
       padding: 20px;
       text-align: center;
     }
 
     h1 {
-      font-size: 36px;
-      margin: 10px 0 0;
+      font-size: 38px;
+      margin: 15px 0 5px;
+      color: #5a3e1b;
     }
 
     h2 {
-      font-size: 16px;
-      margin: 5px 0 20px;
+      font-size: 18px;
+      margin: 0 0 25px;
       font-weight: normal;
-      color: #ddd;
+      color: #7b5b32;
     }
 
     /* ---------- Menu Sections ---------- */
     .menu-section {
-      background: rgba(0,0,0,0.5);
-      border-radius: 12px;
-      padding: 15px;
+      background: #fff;
+      border-radius: 14px;
+      padding: 20px;
       margin-bottom: 30px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
     }
 
     .section-title {
-      background: #e67e22;
+      background: #f39c12;
       color: #fff;
       font-weight: bold;
       padding: 8px 15px;
-      border-radius: 6px;
+      border-radius: 8px;
       display: inline-block;
-      margin-bottom: 12px;
+      margin-bottom: 16px;
     }
 
     .menu-item {
       display: flex;
       justify-content: space-between;
-      margin: 6px 0;
-      font-size: 16px;
+      margin: 8px 0;
+      font-size: 17px;
+      color: #444;
     }
 
     /* ---------- Footer ---------- */
     .footer {
-      margin-top: 20px;
+      margin-top: 25px;
       font-size: 14px;
-      color: #ccc;
+      color: #7b5b32;
     }
 
     .contact {
@@ -102,9 +105,9 @@
     }
 
     .contact span {
-      background: #e67e22;
-      padding: 6px 12px;
-      border-radius: 6px;
+      background: #f39c12;
+      padding: 8px 14px;
+      border-radius: 8px;
       color: #fff;
       font-weight: bold;
     }
